@@ -1,0 +1,1 @@
+This "article-react" folder contains the necessary front end files for the Article_vote project.

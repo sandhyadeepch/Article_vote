@@ -1,0 +1,33 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCTZA058w7bjoC1xiV2_e6w9D64BNFar4I",
+  authDomain: "articlevote-1730b.firebaseapp.com",
+  projectId: "articlevote-1730b",
+  storageBucket: "articlevote-1730b.appspot.com",
+  messagingSenderId: "521537188821",
+  appId: "1:521537188821:web:f5c3c4d999c027ea4c035c",
+  measurementId: "G-NW1F9BQKT7"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
