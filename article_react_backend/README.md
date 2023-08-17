@@ -1,1 +1,1 @@
-This folder "article_react_backend"  contains the necessary files for the Article_vote project to connect, load, update articles to backend. 
+This "article_react_backend" folder contains the necessary files for the Article_vote project to connect, load, update articles to backend. 
